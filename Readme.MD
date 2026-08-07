@@ -84,6 +84,36 @@ python main.py
 
 Run it manually, or schedule it as a daily cron job / GitHub Action to check for new postings automatically.
 
+## Customization
+ 
+This repo is set up for my own job search (Data Scientist / AI / NLP roles in Finland), so if you clone it for yourself, update the following before running:
+ 
+**1. Replace the resume**
+ 
+Overwrite `base_resume.txt` with your own resume in plain text. This is the content the LLM uses to score matches and generate tailored bullet points, so keep it accurate and up to date.
+ 
+**2. Adjust the search query**
+ 
+In `job_fetcher.py`, update the SerpApi search parameters to match your target role and location:
+ 
+```python
+params = {
+    "engine": "google",
+    "q": 'site:linkedin.com/jobs/view/ "Finland" ("Data Scientist" OR "AI" OR "NLP")',
+    "tbs": "qdr:w",  # time window: qdr:d = past day, qdr:w = past week, qdr:m = past month
+    "hl": "en",
+    "num": "15",
+    ...
+}
+```
+ 
+- Swap `"Finland"` for your target country/city.
+- Swap the job-title keywords (`"Data Scientist" OR "AI" OR "NLP"`) for your own target roles.
+- Adjust `tbs` if you want a shorter or longer freshness window.
+**3. Adjust the match threshold**
+ 
+In `config.py`, `MATCH_SCORE_THRESHOLD` (default `75`) controls how selective the notifications are. Lower it if you want to see more borderline matches, raise it if you only want near-perfect fits.
+
 ## Example Output
 
 ![Lark Notification Demo](./ai_job_assistant.png)
