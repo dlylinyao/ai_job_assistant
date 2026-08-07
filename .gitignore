@@ -1,0 +1,19 @@
+# 环境变量 / 密钥（最重要的一行）
+.env
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+.venv/
+.venv-1/
+venv/
+env/
+
+# 操作系统 / 编辑器杂项文件
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

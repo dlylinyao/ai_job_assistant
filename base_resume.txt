@@ -1,0 +1,55 @@
+Linyao Du
+Location: Helsinki, Finland | Phone: +358 44 951 0702 | Email: linyao.du@helsinki.fi
+LinkedIn: linkedin.com/in/linyao-du-77317a2b4 | GitHub: github.com/dlylinyao
+Visa Status: Type A Residence Permit (Finland) | Full Right to Work
+
+ABOUT ME
+M.A. candidate in Language Technology at the University of Helsinki with hands-on experience developing AI solutions using Large Language Models (LLMs), Natural Language Processing (NLP), and Machine Learning. Brings 4+ years of experience in client-facing and cross-functional roles, coordinating technology projects and collaborating with both technical and business stakeholders. Passionate about translating advanced AI into clear, practical solutions that solve real-world business problems.
+
+SELECTED AI & DATA PROJECTS
+1. Multilingual AI Solution Development (Python | PyTorch | Hugging Face | DSPy | Ollama)
+   - Developed an end-to-end multilingual AI solution integrating LLM fine-tuning, preference alignment (SFT/DPO), Retrieval-Augmented Generation (RAG), and automated evaluation workflows, using Git for version control.
+   - Built a Finnish-language RAG system for public-service documents by optimizing document chunking, multilingual embeddings, and retrieval performance.
+   - Applied DSPy to automate prompt optimization and evaluation, improving experimentation efficiency for LLM applications.
+
+2. Large-scale NLP Pipeline for Document Classification (PyTorch | DistilBERT | Scikit-learn)
+   - Built a scalable NLP pipeline processing 299K news articles for multi-label document classification.
+   - Fine-tuned DistilBERT models, achieving a Micro-F1 score of 0.8819 through systematic preprocessing, threshold optimization, and model evaluation.
+   - Conducted error analysis to improve prediction robustness and model interpretability.
+
+3. Domain Adaptation for Neural Machine Translation (Hugging Face | CSC Puhti HPC | OpusFilter)
+   - GitHub: https://github.com/dlylinyao/NMT-Domain-Adaptation-2025
+   - Built a domain-adapted neural machine translation pipeline using multilingual corpora on CSC Puhti HPC.
+   - Developed automated data-cleaning workflows for 3M+ sentence pairs and improved translation quality by 48% BLEU through sequential fine-tuning.
+   - Evaluated model quality using BLEU, chrF, and COMET to support data-driven model selection.
+
+4. Data Visualization & Analytics — Global University Rankings Dashboard (Tableau)
+   - Portfolio: https://public.tableau.com/shared/DK9SD3ZT2?:display_count=n&:origin=viz_share_link
+   - Designed an interactive Tableau dashboard integrating multi-source ranking data (QS, THE, ARWU) to support cross-system comparison and geographic exploration.
+   - Applied visual-encoding best practices (e.g., aligned bar charts over radar charts) and conducted a 4-participant user study to refine clarity and usability.
+
+BUSINESS EXPERIENCE
+1. Executive Assistant to General Manager & Board Liaison | Beijing Black Ant Brothers Tech Co., Ltd. (Jul 2018 – Dec 2021)
+   - Coordinated a ¥25M (≈€3.2M) cross-border fundraising initiative involving executive leadership, international investors, and multidisciplinary teams, ensuring effective communication and stakeholder alignment.
+   - Served as the primary liaison between company executives and Singapore-based board members, facilitating cross-cultural collaboration and executive decision-making.
+   - Partnered with engineering, legal, finance, and external organizations to prepare technical funding proposals, contributing to more than €130K in government innovation grants.
+   - Coordinated intellectual property projects supporting 60+ patent applications and corporate qualification initiatives.
+
+2. Operations & Supply Chain Assistant | Beijing Lingxi Technology Co., Ltd. (Sep 2021 – Feb 2023)
+   - Coordinated project execution across AI hardware R&D, operations, and supply chain teams using Jira and Confluence in Agile environments.
+   - Improved operational efficiency by streamlining internal approval workflows and maintaining project documentation across multiple departments.
+   - Supported day-to-day product development through operational reporting, documentation management, and cross-functional communication.
+
+EDUCATION
+- M.A. Language Technology (Linguistic Diversity and Digital Humanities) | University of Helsinki (Expected 2027)
+  Relevant Coursework: Large Language Models and Generative AI for NLP, Deep Learning for NLP, Machine Learning for Linguistics, Machine Translation, Interactive Data Visualization
+- M.A. Applied Linguistics | Shanghai Maritime University
+- B.A. English | Anyang Normal University
+
+TECHNICAL SKILLS & LANGUAGES
+- Programming & Applied AI: Python, PyTorch, Scikit-learn, LLM Fine-tuning (SFT, QLoRA), RAG, Prompt Engineering, DSPy, Hugging Face, PEFT, TRL, spaCy
+- Data Engineering & Tools: CSC Puhti HPC, Slurm, OpusFilter, Corpus Processing, BeautifulSoup, Tableau, Git, Jira, Confluence
+- Languages: English (Professional), Mandarin (Native), Finnish (Basic)
+
+PUBLICATION
+- Co-author: Grounded Satirical Generation with RAG | arXiv:2605.10853 (2026) - https://arxiv.org/abs/2605.10853
