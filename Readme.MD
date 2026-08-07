@@ -86,7 +86,7 @@ Run it manually, or schedule it as a daily cron job / GitHub Action to check for
 
 ## Example Output
 
-*(Add a screenshot or GIF of the Feishu card notification here)*
+![Lark Notification Demo](./ai_job_assistant.png)
 
 ## Roadmap
 
@@ -94,9 +94,6 @@ Run it manually, or schedule it as a daily cron job / GitHub Action to check for
 - [ ] Add a lightweight web dashboard to review matches
 - [ ] Support multiple resume versions for different role types
 
-## License
-
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
 
 ## About
 
