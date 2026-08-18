@@ -27,7 +27,7 @@ def is_job_active(url: str) -> bool:
 def fetch_daily_jobs() -> list:
     params = {
         "engine": "google",
-        "q": 'site:linkedin.com/jobs/view/ "Finland" ("Data Scientist" OR "AI" OR "NLP")',
+        "q": 'site:linkedin.com/jobs/view/ "Helsinki" ("Junior" OR "Trainee" OR "Intern") ("AI" OR "Data" OR "NLP" OR "Analytics")',
         "tbs": "qdr:w",  # Only get jobs posted in the last 7 days
         "hl": "en",
         "num": "15",     # Fetch extra items for filtering
